@@ -12,6 +12,7 @@ A lightweight Python script to control **Spotify playback** with custom hotkeys 
 - 🧠 Smart cooldown to prevent spam skipping
 - 👆 Binds only after you press your own keys — no accidental defaults
 - 🔒 Keeps running until you close it manually
+- 👾 Custom Discord Presence
 
 ---
 
@@ -19,7 +20,7 @@ A lightweight Python script to control **Spotify playback** with custom hotkeys 
 
 Install dependencies:
 ```bash
-pip install keyboard colorama
+pip install keyboard colorama pypresence
 
 > 💡 This script only works on Windows (uses ctypes.windll.user32). > 🛠 If hotkeys don't respond, try running it as Administrator.
 
